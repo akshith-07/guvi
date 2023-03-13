@@ -2,12 +2,29 @@
     margin: 0;
     padding: 0;
   }
+  
+body{
+    background-color:rgba(10, 14, 12, 0.712);
+}
+
+#username ,#password,#email,#confirm-password,#signup-form
+{
+    border-radius: 10px;
+    box-shadow:  5px 5px 5px 5px #080710;
+}
+
+#signup-form
+{
+    
+    height: 600px;
+}
+
+#already{
+    text-align: center;
+}
 .background{
     width: 430px;
     height: 520px;
-    background-image: url('../assests/nature.jpeg');
-    padding: 0 10px 0 10px;
-    background-size: cover;
     position: absolute;
     transform: translate(-50%,-50%);
     left: 50%;
@@ -36,18 +53,8 @@
     right: -30px;
     bottom: -80px;
 }
-
-h2{
-    text-align: center;
-}
-
-#username , #password, #login-form{
-    border-radius: 10px;
-    box-shadow:  5px 5px 5px 5px #080710;
-}
-
 form{
-    height: 520px;
+    height: 850px;
     width: 400px;
     background-color: rgba(255,255,255,0.13);
     position: absolute;
@@ -62,12 +69,12 @@ form{
 }
 form *{
     font-family: 'Poppins',sans-serif;
-    color :#080710;
+    color: #ffffff;
     letter-spacing: 0.5px;
     outline: none;
     border: none;
 }
-form h3{
+form h2{
     font-size: 32px;
     font-weight: 500;
     line-height: 42px;
@@ -84,23 +91,22 @@ input{
     display: block;
     height: 50px;
     width: 100%;
-    background-color: black;
+    background-color: white;
     border-radius: 3px;
     padding: 0 10px;
     margin-top: 8px;
     font-size: 14px;
-    
-    font-weight: 600;
+    font-weight: 1000px;
 }
 ::placeholder{
     color: #e5e5e5;
 }
 button{
-    margin-top: 50px;
+    margin-top: 20px;
     width: 100%;
     background-color: #ffffff;
     color: #080710;
-    padding: 15px 0;
+    padding: 10px 0;
     font-size: 18px;
     font-weight: 600;
     border-radius: 5px;
@@ -128,17 +134,7 @@ button{
 .social i{
   margin-right: 4px;
 }
-p{
-    
-    margin-top: 30px;
-    font-size: 16px;
-    font-weight: 500;
-}
 a{
     color: #d0dd1b;
     font-size: 18px;
-}
-#already
-{
-    color:red;
 }

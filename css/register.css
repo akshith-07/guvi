@@ -4,7 +4,23 @@
   }
   
 body{
-    background-color:rgb(207, 201, 201);
+    background-color:rgba(10, 14, 12, 0.712);
+}
+
+#username ,#password,#email,#confirm-password,#signup-form
+{
+    border-radius: 10px;
+    box-shadow:  5px 5px 5px 5px #080710;
+}
+
+#signup-form
+{
+    
+    height: 600px;
+}
+
+#already{
+    text-align: center;
 }
 .background{
     width: 430px;
@@ -75,7 +91,7 @@ input{
     display: block;
     height: 50px;
     width: 100%;
-    background-color: black;
+    background-color: white;
     border-radius: 3px;
     padding: 0 10px;
     margin-top: 8px;
