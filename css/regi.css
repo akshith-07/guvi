@@ -7,13 +7,36 @@ body{
     background-image: url('../assests/nature.jpeg');
     padding: 0 10px 0 10px;
     background-size: cover;
-
 }
-#profile-form{
-    margin-top: 400px;
+
+#username ,#password,#email,#confirm-password
+{
+    border-radius: 10px;
+    box-shadow:  5px 5px 5px 5px #080710;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    background-color: #ffffff;
+    color: #080710;
+    
+}
+
+
+#signup-form
+{
+    border-radius: 10px;
+    box-shadow:  5px 5px 5px 5px #080710;
+}
+
+#signup-form
+{
+    
+    height: 600px;
+}
+
+#already{
+    text-align: center;
 }
 .background{
-    
     width: 430px;
     height: 520px;
     position: absolute;
@@ -45,9 +68,8 @@ body{
     bottom: -80px;
 }
 form{
-    height: 700px;
-    width: 500px;
-    margin-top: 100px;
+    height: 520px;
+    width: 400px;
     background-color: rgba(255,255,255,0.13);
     position: absolute;
     transform: translate(-50%,-50%);
@@ -75,7 +97,6 @@ form h2{
 
 label{
     display: block;
-    color: #080710;
     margin-top: 30px;
     font-size: 16px;
     font-weight: 500;
@@ -84,26 +105,35 @@ input{
     display: block;
     height: 50px;
     width: 100%;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     border-radius: 3px;
     padding: 0 10px;
     margin-top: 8px;
     font-size: 14px;
     font-weight: 1000px;
 }
+.btn
+{
+    border-radius: 10px;
+    box-shadow:  5px 5px 5px 5px #080710;
+    size: 50cm;
+    background-color: #1845ad;
+    color: #080710;
+}
+
 ::placeholder{
-    color: #e5e5e5;
+    color: black;
 }
 button{
     margin-top: 20px;
     width: 100%;
-    background-color: #ffffff;
+    background-color: white;
     color: #080710;
     padding: 10px 0;
     font-size: 18px;
     font-weight: 600;
     border-radius: 5px;
-    cursor: pointer;
+    cursor:pointer;
 }
 .social{
   margin-top: 30px;
@@ -127,7 +157,7 @@ button{
 .social i{
   margin-right: 4px;
 }
-h4{
-    text-align: center;
-    color: #080710;
+a{
+    color: #d0dd1b;
+    font-size: 18px;
 }

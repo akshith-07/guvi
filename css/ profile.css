@@ -4,25 +4,38 @@
   }
   
 body{
-    background-color:rgba(10, 14, 12, 0.712);
-}
+    background-image: url('../assests/nature.jpeg');
+    padding: 0 10px 0 10px;
+    background-size: cover;
 
-#username ,#password,#email,#confirm-password,#signup-form
+}
+.profile-form
+{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #080710;
+}
+#age,#dob,#username,#contact-address
 {
     border-radius: 10px;
     box-shadow:  5px 5px 5px 5px #080710;
+    color: #080710;
 }
-
-#signup-form
+.btn
 {
-    
-    height: 600px;
+    border-radius: 10px;
+    box-shadow:  5px 5px 5px 5px #080710;
+    color: #080710;
+    background-color: #0953a7b0;
+
+
 }
 
-#already{
-    text-align: center;
+
+#profile-form{
+    margin-top: 400px;
 }
 .background{
+    
     width: 430px;
     height: 520px;
     position: absolute;
@@ -54,8 +67,9 @@ body{
     bottom: -80px;
 }
 form{
-    height: 520px;
-    width: 400px;
+    height: 700px;
+    width: 500px;
+    margin-top: 100px;
     background-color: rgba(255,255,255,0.13);
     position: absolute;
     transform: translate(-50%,-50%);
@@ -83,6 +97,7 @@ form h2{
 
 label{
     display: block;
+    color: #080710;
     margin-top: 30px;
     font-size: 16px;
     font-weight: 500;
@@ -91,7 +106,7 @@ input{
     display: block;
     height: 50px;
     width: 100%;
-    background-color: white;
+    background-color: black;
     border-radius: 3px;
     padding: 0 10px;
     margin-top: 8px;
@@ -134,7 +149,7 @@ button{
 .social i{
   margin-right: 4px;
 }
-a{
-    color: #d0dd1b;
-    font-size: 18px;
+h4{
+    text-align: center;
+    color: #080710;
 }
