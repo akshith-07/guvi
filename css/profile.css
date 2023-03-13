@@ -4,15 +4,16 @@
   }
   
 body{
-    background-color: #ffffff;
+    background-image: url('../assests/nature.jpeg');
+    padding: 0 10px 0 10px;
+    background-size: cover;
+
 }
-
-
 #profile-form{
-    margin-top: 50%;
+    margin-top: 400px;
 }
 .background{
-
+    
     width: 430px;
     height: 520px;
     position: absolute;
@@ -44,8 +45,9 @@ body{
     bottom: -80px;
 }
 form{
-    height: 600px;
-    width: 400px;
+    height: 700px;
+    width: 500px;
+    margin-top: 100px;
     background-color: rgba(255,255,255,0.13);
     position: absolute;
     transform: translate(-50%,-50%);
@@ -73,6 +75,7 @@ form h2{
 
 label{
     display: block;
+    color: #080710;
     margin-top: 30px;
     font-size: 16px;
     font-weight: 500;
@@ -123,4 +126,8 @@ button{
 }
 .social i{
   margin-right: 4px;
+}
+h4{
+    text-align: center;
+    color: #080710;
 }
