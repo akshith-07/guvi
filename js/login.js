@@ -1,9 +1,9 @@
 $(document).ready(function() {
  
     alert("Started...");
-      // listen for form submission
+      
       $('#login-form').submit(function(event) {
-        event.preventDefault(); // prevent default form submission
+        event.preventDefault(); 
        
         // get form data
         var username = $('#username').val();
